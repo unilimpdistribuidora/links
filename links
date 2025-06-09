@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unilimp Links</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #dbe3ec;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #e3e9f1;
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px #c4cbd4, -10px -10px 30px #ffffff;
+      padding: 2rem;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .logo-img {
+      max-width: 200px;
+      margin: 0 auto 1rem auto;
+      display: block;
+    }
+
+    .desc {
+      margin-bottom: 2rem;
+      color: #555;
+    }
+
+    .button {
+      width: 100%;
+      margin: 0.65rem auto;
+      padding: 1rem;
+      background: #e3e9f1;
+      border-radius: 12px;
+      box-shadow: inset 4px 4px 8px #c1c7cd, inset -4px -4px 8px #ffffff;
+      text-decoration: none;
+      color: #009edb;
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button:hover {
+      box-shadow: inset 2px 2px 6px #c1c7cd, inset -2px -2px 6px #ffffff;
+      transform: scale(1.01);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://www.dropbox.com/scl/fi/1usna1hax3yof68kvj6vq/logos-Unilimp-1-1.png?rlkey=z8f107rhzn5hg34tot599c70q&st=h885qyhn&raw=1" alt="Logo Unilimp" class="logo-img">
+    <div class="desc">Distribuidora de produtos de limpeza e higiene.</div>
+
+    <a class="button" href="mailto:comercial@unilimp.com.br" target="_blank">Email para Contato</a>
+    <a class="button" href="https://api.whatsapp.com/send/?phone=556133548898&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
+    <a class="button" href="https://unilimp.com.br/vitrine" target="_blank">Vitrine de produtos</a>
+    <a class="button" href="https://www.facebook.com/unilimpdistribuidora" target="_blank">Facebook</a>
+    <a class="button" href="https://www.linkedin.com/in/unilimp/" target="_blank">Linkedin</a>
+    <a class="button" href="https://www.google.com.br/maps/place/Unilimp+Distribuidora/@-15.8747806,-47.9940683,19z/data=!4m6!3m5!1s0x935a2f78a068819d:0x8f91b5cd236d0227!8m2!3d-15.8746394!4d-47.9941708!16s%2Fg%2F11gl15z9yw?coh=210790&entry=tts" target="_blank">Localização</a>
+  </div>
+</body>
+</html>
